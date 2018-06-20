@@ -1,4 +1,59 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  font-family: Arial;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 20px auto;
+  width: 95%;
+  text-align: center;
+}
+
+.baku, .madrid, .london, .rome {
+  background-color: #fff;
+  float: left;
+  margin: 3%;
+  width: 80% auto;
+  font-family: Times New Roman;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: left;
+  }
+
+.baku {
+  background: url("../images/baku.jpg") no-repeat cover left;
+}
+
+.madrid {
+  background: url("../images/madrid.jpg") no-repeat cover left;
+}
+
+.london {
+  background: url("../images/london.png") no-repeat cover left;
+}
+
+.rome {
+  background: url("../images/rome.jpg") no-repeat cover left;
+}
+
+
+@media screen and (min-width: 575px){
+   .preview {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px){
+   .preview {
+    margin: 1%;
+    width: 22%;
+  }
 }
